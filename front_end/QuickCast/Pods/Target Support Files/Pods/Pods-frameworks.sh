@@ -82,3 +82,15 @@ strip_invalid_archs() {
   fi
 }
 
+<<<<<<< Updated upstream
+=======
+
+if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "Pods/SAMGradientView.framework"
+  install_framework "Pods/SwiftyJSON.framework"
+fi
+if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "Pods/SAMGradientView.framework"
+  install_framework "Pods/SwiftyJSON.framework"
+fi
+>>>>>>> Stashed changes

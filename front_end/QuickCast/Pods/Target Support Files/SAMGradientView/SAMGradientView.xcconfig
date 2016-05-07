@@ -1,5 +1,9 @@
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+<<<<<<< Updated upstream
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SAMGradientView" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/SAMGradientView"
+=======
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Private" "${PODS_ROOT}/Headers/Private/SAMGradientView" "${PODS_ROOT}/Headers/Public"
+>>>>>>> Stashed changes
 OTHER_LDFLAGS = -framework "CoreGraphics" -framework "UIKit"
 PODS_ROOT = ${SRCROOT}
 SKIP_INSTALL = YES

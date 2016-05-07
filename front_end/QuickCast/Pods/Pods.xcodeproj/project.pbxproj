@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+<<<<<<< Updated upstream
 		2277CE40F2E71F558AA395FBDB5949FE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
 		30D99953206D7FC9A625ED094132124B /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = D311CEB633A06AABF38CDE22E36D8088 /* SAMGradientView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		335FA223E32585A241EDF369E8670002 /* SAMGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD0E5FCFE3DAD005BFBCA2B268FB2676 /* SAMGradientView-dummy.m */; };
@@ -23,11 +24,43 @@
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 79A78B7C6469A9188D6685FE363C5C70;
+=======
+		0D8D0C5ADB22EFC8C25484D7824026A3 /* SAMGradientView.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBA03338FA3A383FB106009536873F9 /* SAMGradientView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2CB22DCAF291BFD77218AEC45701C1C5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */; };
+		417C5A67235892B450F0FB96391D0D23 /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		47E441073EC63758422329E90494A515 /* SAMGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 815E3A61A52A3AE56394A8AC98510807 /* SAMGradientView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		4C362E4A466F6394308DB056AC4F48CE /* SwiftyJSON-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C5DEE19AE2C1C89B8D0AAB7358A4C00D /* SwiftyJSON-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DAD9F909C4EF53EE718C1BE8893FA2C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		76BCAEDA115A1C68438EE229E7382C51 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		7A58392AF12D6A670A462648F35F00E1 /* SwiftyJSON-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AE01C9865C4996DE1EEF8E8976F4F313 /* SwiftyJSON-dummy.m */; };
+		7BC3186EED42F559306B621F03B3D96E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */; };
+		A209179C24A0C7F3640D8C43CBFCA4D4 /* SAMGradientView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FF64C79DB61110EB9F5789CA36D5ABF1 /* SAMGradientView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BD3E32DDB13ADBA72F3524C9C6C483E2 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		D3DC845051FC227B470F573426E56C84 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6ED76C7D11E9C295449A5308AC54FEEA /* SwiftyJSON.swift */; };
+		EFACBA4F05ED81450F89047B653228EE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */; };
+		F5E5F5DD5F8500C9D7915E212DA8617C /* SAMGradientView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 321809E66897AC2C57F8A1DE34C75F47 /* SAMGradientView-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		615613FE3DD78622DF1B6C8C704F9BE5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7ED88B1E8D274B4B25EC36C1B901503F;
+			remoteInfo = SwiftyJSON;
+		};
+		8823BF27C005C9E63D5BA3F336C6C3B1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B722E7E03C024E106A4720AAB9EB27E;
+>>>>>>> Stashed changes
 			remoteInfo = SAMGradientView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+<<<<<<< Updated upstream
 		10834806BD7B412BC24F347361FA2C8E /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
 		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
 		272643F56613CA0D336AE3DBF19DC404 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
@@ -64,22 +97,100 @@
 			buildActionMask = 2147483647;
 			files = (
 				C62A36BFB813FA062698C851523E81E1 /* Foundation.framework in Frameworks */,
+=======
+		034339567CA353B47CDA9DDC504D6855 /* SAMGradientView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SAMGradientView.modulemap; sourceTree = "<group>"; };
+		06993204F2AC40374390C01B0F04B56F /* SAMGradientView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SAMGradientView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C58B937FC82AA658E3D3F993B6FC2D4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		232B6A0C321DAD41B757A171A8133106 /* SwiftyJSON.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SwiftyJSON.modulemap; sourceTree = "<group>"; };
+		23B3C2F7A60189AA38D256A0120B8730 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		277D6C4D7B816A7EFA8ED71E12CBABC4 /* SAMGradientView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMGradientView-prefix.pch"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		321809E66897AC2C57F8A1DE34C75F47 /* SAMGradientView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SAMGradientView-dummy.m"; sourceTree = "<group>"; };
+		42ED2ED9C1A74630A7C545EC5D7B24FF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4822B819695B10EEDD86488437ED4879 /* SAMGradientView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SAMGradientView.xcconfig; sourceTree = "<group>"; };
+		6ED76C7D11E9C295449A5308AC54FEEA /* SwiftyJSON.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SwiftyJSON.swift; path = Source/SwiftyJSON.swift; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		7DBA03338FA3A383FB106009536873F9 /* SAMGradientView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SAMGradientView.h; path = SAMGradientView/SAMGradientView.h; sourceTree = "<group>"; };
+		7F79ACD206D7284CF469DA6B24AFACE9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		815E3A61A52A3AE56394A8AC98510807 /* SAMGradientView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SAMGradientView.m; path = SAMGradientView/SAMGradientView.m; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		95FA9D6C62076D7840475E09238EED1E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		AB3FF11DC048ACEBC1E3BE930F9564AF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE01C9865C4996DE1EEF8E8976F4F313 /* SwiftyJSON-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftyJSON-dummy.m"; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C5DEE19AE2C1C89B8D0AAB7358A4C00D /* SwiftyJSON-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-umbrella.h"; sourceTree = "<group>"; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB15A818723399D690A742D5E07F476B /* SwiftyJSON.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftyJSON.xcconfig; sourceTree = "<group>"; };
+		F595F1B6CFCDE861E1C18BE639F08398 /* SwiftyJSON.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftyJSON.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F96C132709B18D7252849BB7D5052EAA /* SwiftyJSON-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftyJSON-prefix.pch"; sourceTree = "<group>"; };
+		FF64C79DB61110EB9F5789CA36D5ABF1 /* SAMGradientView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SAMGradientView-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1FD5EF77132D6CB03D9B336A8D11C19D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DAD9F909C4EF53EE718C1BE8893FA2C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5412FDBA4E500A64E4F6FF1FC6BE8F92 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFACBA4F05ED81450F89047B653228EE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E7EAFBCC710706A2BF25066DC2F882E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BC3186EED42F559306B621F03B3D96E /* CoreGraphics.framework in Frameworks */,
+				76BCAEDA115A1C68438EE229E7382C51 /* Foundation.framework in Frameworks */,
+				2CB22DCAF291BFD77218AEC45701C1C5 /* UIKit.framework in Frameworks */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+<<<<<<< Updated upstream
 		011D55D72EDCFC75289993166A98E16D /* SAMGradientView */ = {
 			isa = PBXGroup;
 			children = (
 				C8A121CC5D7AD9A838C403161487456B /* SAMGradientView.h */,
 				D311CEB633A06AABF38CDE22E36D8088 /* SAMGradientView.m */,
 				CC150E6D7E38525C8215D2FCA933728F /* Support Files */,
+=======
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E35B3E289DB984DA75A774080D293670 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		344DEFFE53D129F322384CE2F4D663C8 /* SAMGradientView */ = {
+			isa = PBXGroup;
+			children = (
+				7DBA03338FA3A383FB106009536873F9 /* SAMGradientView.h */,
+				815E3A61A52A3AE56394A8AC98510807 /* SAMGradientView.m */,
+				3B01A14A37B9448F1728A3F2835AAF96 /* Support Files */,
+>>>>>>> Stashed changes
 			);
 			path = SAMGradientView;
 			sourceTree = "<group>";
 		};
+<<<<<<< Updated upstream
 		037C0CA694176A3C0915F62C9D20B3E6 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -148,6 +259,99 @@
 			);
 			name = "Support Files";
 			path = "../Target Support Files/SAMGradientView";
+=======
+		3B01A14A37B9448F1728A3F2835AAF96 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AB3FF11DC048ACEBC1E3BE930F9564AF /* Info.plist */,
+				034339567CA353B47CDA9DDC504D6855 /* SAMGradientView.modulemap */,
+				4822B819695B10EEDD86488437ED4879 /* SAMGradientView.xcconfig */,
+				321809E66897AC2C57F8A1DE34C75F47 /* SAMGradientView-dummy.m */,
+				277D6C4D7B816A7EFA8ED71E12CBABC4 /* SAMGradientView-prefix.pch */,
+				FF64C79DB61110EB9F5789CA36D5ABF1 /* SAMGradientView-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SAMGradientView";
+			sourceTree = "<group>";
+		};
+		6FB6FF2EEC05116FF647E0D10FF1B8AA /* SwiftyJSON */ = {
+			isa = PBXGroup;
+			children = (
+				6ED76C7D11E9C295449A5308AC54FEEA /* SwiftyJSON.swift */,
+				79A4B5DC147FAB9E7AFD670029CF9AD7 /* Support Files */,
+			);
+			path = SwiftyJSON;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		79A4B5DC147FAB9E7AFD670029CF9AD7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				42ED2ED9C1A74630A7C545EC5D7B24FF /* Info.plist */,
+				232B6A0C321DAD41B757A171A8133106 /* SwiftyJSON.modulemap */,
+				EB15A818723399D690A742D5E07F476B /* SwiftyJSON.xcconfig */,
+				AE01C9865C4996DE1EEF8E8976F4F313 /* SwiftyJSON-dummy.m */,
+				F96C132709B18D7252849BB7D5052EAA /* SwiftyJSON-prefix.pch */,
+				C5DEE19AE2C1C89B8D0AAB7358A4C00D /* SwiftyJSON-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftyJSON";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				9F1E7D79CB92D00A4BE7E315AD299E9B /* Pods */,
+				D5EBCEAB254797FD44C4F2606D13CA99 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9F1E7D79CB92D00A4BE7E315AD299E9B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				344DEFFE53D129F322384CE2F4D663C8 /* SAMGradientView */,
+				6FB6FF2EEC05116FF647E0D10FF1B8AA /* SwiftyJSON */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		D5EBCEAB254797FD44C4F2606D13CA99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1C58B937FC82AA658E3D3F993B6FC2D4 /* Pods.framework */,
+				06993204F2AC40374390C01B0F04B56F /* SAMGradientView.framework */,
+				F595F1B6CFCDE861E1C18BE639F08398 /* SwiftyJSON.framework */,
+			);
+			name = Products;
+>>>>>>> Stashed changes
 			sourceTree = "<group>";
 		};
 		E35B3E289DB984DA75A774080D293670 /* iOS */ = {
@@ -163,17 +367,43 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+<<<<<<< Updated upstream
 		3FAEC41B8B16BF54962FA3C437A689CC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA1879F815AF443AAD7B6B663443E21B /* SAMGradientView.h in Headers */,
+=======
+		243B9BE6D88C5D2AD9C5602608C1AF00 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A209179C24A0C7F3640D8C43CBFCA4D4 /* SAMGradientView-umbrella.h in Headers */,
+				0D8D0C5ADB22EFC8C25484D7824026A3 /* SAMGradientView.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		726C677F27199AAE8694C90EDF7B2955 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C362E4A466F6394308DB056AC4F48CE /* SwiftyJSON-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C62B22BA657430A12493E6D0632311EC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				417C5A67235892B450F0FB96391D0D23 /* Pods-umbrella.h in Headers */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+<<<<<<< Updated upstream
 		79A78B7C6469A9188D6685FE363C5C70 /* SAMGradientView */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E589E042118DFAE2F928C122617DA32 /* Build configuration list for PBXNativeTarget "SAMGradientView" */;
@@ -181,6 +411,15 @@
 				505074B638B8B8BE1B1B7CCDE20E240D /* Sources */,
 				3553D6FA2E3A6AB33949DA37E75E6871 /* Frameworks */,
 				3FAEC41B8B16BF54962FA3C437A689CC /* Headers */,
+=======
+		0B722E7E03C024E106A4720AAB9EB27E /* SAMGradientView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AF2115442FB02A936A4A3D122948F2B7 /* Build configuration list for PBXNativeTarget "SAMGradientView" */;
+			buildPhases = (
+				137F5D2FC31E5670FF4AD270C537349E /* Sources */,
+				E7EAFBCC710706A2BF25066DC2F882E4 /* Frameworks */,
+				243B9BE6D88C5D2AD9C5602608C1AF00 /* Headers */,
+>>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
@@ -188,6 +427,7 @@
 			);
 			name = SAMGradientView;
 			productName = SAMGradientView;
+<<<<<<< Updated upstream
 			productReference = B5D78E2612F70326F0214331AD29D791 /* libSAMGradientView.a */;
 			productType = "com.apple.product-type.library.static";
 		};
@@ -197,16 +437,55 @@
 			buildPhases = (
 				48371E593C6FAC11E38414232A6B226F /* Sources */,
 				B242FB8B01BCF517571F4EF7D97EEA5E /* Frameworks */,
+=======
+			productReference = 06993204F2AC40374390C01B0F04B56F /* SAMGradientView.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		7ED88B1E8D274B4B25EC36C1B901503F /* SwiftyJSON */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 867E1BA3F6C3A6430C6092653C86466A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */;
+			buildPhases = (
+				3F7963A6394438FD194B50D0C2658232 /* Sources */,
+				1FD5EF77132D6CB03D9B336A8D11C19D /* Frameworks */,
+				726C677F27199AAE8694C90EDF7B2955 /* Headers */,
+>>>>>>> Stashed changes
 			);
 			buildRules = (
 			);
 			dependencies = (
+<<<<<<< Updated upstream
 				4F7B701C4DB630BE4D2DA9E919F2DC6B /* PBXTargetDependency */,
 			);
 			name = Pods;
 			productName = Pods;
 			productReference = 90E7F3B682655C985B4935914E8F199D /* libPods.a */;
 			productType = "com.apple.product-type.library.static";
+=======
+			);
+			name = SwiftyJSON;
+			productName = SwiftyJSON;
+			productReference = F595F1B6CFCDE861E1C18BE639F08398 /* SwiftyJSON.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		93569329DF1BE4E11787D5DEA3445E79 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 111E68F68526B7F54EFAAF163D6EC763 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				F5698050DC087D0BCA5A8C8248D5ED6B /* Sources */,
+				5412FDBA4E500A64E4F6FF1FC6BE8F92 /* Frameworks */,
+				C62B22BA657430A12493E6D0632311EC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F6E1C1E1BEB13CBF62FA49766C7FD7C5 /* PBXTargetDependency */,
+				806666C4A5F4044DAE327DD3E4DF22E8 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 1C58B937FC82AA658E3D3F993B6FC2D4 /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+>>>>>>> Stashed changes
 		};
 /* End PBXNativeTarget section */
 
@@ -225,17 +504,28 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+<<<<<<< Updated upstream
 			productRefGroup = 823D54FBF2DA2E0A16C21DCC27A787E7 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				F7574E3656088CB85B5A9E2166EE9E86 /* Pods */,
 				79A78B7C6469A9188D6685FE363C5C70 /* SAMGradientView */,
+=======
+			productRefGroup = D5EBCEAB254797FD44C4F2606D13CA99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				93569329DF1BE4E11787D5DEA3445E79 /* Pods */,
+				0B722E7E03C024E106A4720AAB9EB27E /* SAMGradientView */,
+				7ED88B1E8D274B4B25EC36C1B901503F /* SwiftyJSON */,
+>>>>>>> Stashed changes
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+<<<<<<< Updated upstream
 		48371E593C6FAC11E38414232A6B226F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -250,21 +540,61 @@
 			files = (
 				335FA223E32585A241EDF369E8670002 /* SAMGradientView-dummy.m in Sources */,
 				30D99953206D7FC9A625ED094132124B /* SAMGradientView.m in Sources */,
+=======
+		137F5D2FC31E5670FF4AD270C537349E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E5F5DD5F8500C9D7915E212DA8617C /* SAMGradientView-dummy.m in Sources */,
+				47E441073EC63758422329E90494A515 /* SAMGradientView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3F7963A6394438FD194B50D0C2658232 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A58392AF12D6A670A462648F35F00E1 /* SwiftyJSON-dummy.m in Sources */,
+				D3DC845051FC227B470F573426E56C84 /* SwiftyJSON.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F5698050DC087D0BCA5A8C8248D5ED6B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD3E32DDB13ADBA72F3524C9C6C483E2 /* Pods-dummy.m in Sources */,
+>>>>>>> Stashed changes
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+<<<<<<< Updated upstream
 		4F7B701C4DB630BE4D2DA9E919F2DC6B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SAMGradientView;
 			target = 79A78B7C6469A9188D6685FE363C5C70 /* SAMGradientView */;
 			targetProxy = 4AEBE45667AB937A99C5AEA3C85DAA38 /* PBXContainerItemProxy */;
+=======
+		806666C4A5F4044DAE327DD3E4DF22E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftyJSON;
+			target = 7ED88B1E8D274B4B25EC36C1B901503F /* SwiftyJSON */;
+			targetProxy = 615613FE3DD78622DF1B6C8C704F9BE5 /* PBXContainerItemProxy */;
+		};
+		F6E1C1E1BEB13CBF62FA49766C7FD7C5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SAMGradientView;
+			target = 0B722E7E03C024E106A4720AAB9EB27E /* SAMGradientView */;
+			targetProxy = 8823BF27C005C9E63D5BA3F336C6C3B1 /* PBXContainerItemProxy */;
+>>>>>>> Stashed changes
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+<<<<<<< Updated upstream
 		31B100258102F034CA98642267CCC2FC /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A68BB06602A13E325759E4C66F3E7883 /* SAMGradientView.xcconfig */;
@@ -290,10 +620,57 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MACH_O_TYPE = staticlib;
+=======
+		1E207792659BD4B05FC19C4B3152E5FE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4822B819695B10EEDD86488437ED4879 /* SAMGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMGradientView/SAMGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMGradientView/SAMGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SAMGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6F7CD858E33061F7B7BBEDE7304B5AA7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+>>>>>>> Stashed changes
 				MTL_ENABLE_DEBUG_INFO = YES;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+<<<<<<< Updated upstream
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -307,10 +684,40 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MACH_O_TYPE = staticlib;
+=======
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		96E2B1766750C7E154781036A0F20C91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+>>>>>>> Stashed changes
 				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
+<<<<<<< Updated upstream
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -318,6 +725,46 @@
 			name = Release;
 		};
 		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+=======
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		991DF5DC1E188410D097E6F9584C3BB1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB15A818723399D690A742D5E07F476B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -349,13 +796,18 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< Updated upstream
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+>>>>>>> Stashed changes
 				ONLY_ACTIVE_ARCH = YES;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
+<<<<<<< Updated upstream
 		98A13275C8041EF25507A5F14A0C993E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = A68BB06602A13E325759E4C66F3E7883 /* SAMGradientView.xcconfig */;
@@ -375,6 +827,63 @@
 			name = Debug;
 		};
 		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+=======
+		ABBAAD3A1B77313F2B494E188700BFFD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4822B819695B10EEDD86488437ED4879 /* SAMGradientView.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SAMGradientView/SAMGradientView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SAMGradientView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SAMGradientView/SAMGradientView.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SAMGradientView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BD514E2E28667BF16ED3D7389AC6CA43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB15A818723399D690A742D5E07F476B /* SwiftyJSON.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftyJSON/SwiftyJSON-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftyJSON/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SwiftyJSON/SwiftyJSON.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SwiftyJSON;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+>>>>>>> Stashed changes
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -401,7 +910,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+<<<<<<< Updated upstream
 				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+=======
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+>>>>>>> Stashed changes
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
 				VALIDATE_PRODUCT = YES;
@@ -411,29 +924,62 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+<<<<<<< Updated upstream
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				8D1534490D941DCA47C62AC4314182AF /* Debug */,
 				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+=======
+		111E68F68526B7F54EFAAF163D6EC763 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6F7CD858E33061F7B7BBEDE7304B5AA7 /* Debug */,
+				96E2B1766750C7E154781036A0F20C91 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+>>>>>>> Stashed changes
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+<<<<<<< Updated upstream
 		8E589E042118DFAE2F928C122617DA32 /* Build configuration list for PBXNativeTarget "SAMGradientView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				98A13275C8041EF25507A5F14A0C993E /* Debug */,
 				31B100258102F034CA98642267CCC2FC /* Release */,
+=======
+		867E1BA3F6C3A6430C6092653C86466A /* Build configuration list for PBXNativeTarget "SwiftyJSON" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				991DF5DC1E188410D097E6F9584C3BB1 /* Debug */,
+				BD514E2E28667BF16ED3D7389AC6CA43 /* Release */,
+>>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+<<<<<<< Updated upstream
 		F06E56667E59980AAEA0D34113135F74 /* Build configuration list for PBXNativeTarget "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				582210E74469CFE2A349E0F54A585724 /* Debug */,
 				87686E6C5B3C71926704FE89E886E5F9 /* Release */,
+=======
+		AF2115442FB02A936A4A3D122948F2B7 /* Build configuration list for PBXNativeTarget "SAMGradientView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ABBAAD3A1B77313F2B494E188700BFFD /* Debug */,
+				1E207792659BD4B05FC19C4B3152E5FE /* Release */,
+>>>>>>> Stashed changes
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

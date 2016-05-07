@@ -1,10 +1,31 @@
 PODS:
   - SAMGradientView (0.2.1)
+<<<<<<< Updated upstream
 
 DEPENDENCIES:
   - SAMGradientView
 
 SPEC CHECKSUMS:
   SAMGradientView: dd5edfe971cea0f1f3369b49f5fb255c0ff3921a
+=======
+  - SwiftyJSON (2.3.2)
+
+DEPENDENCIES:
+  - SAMGradientView
+  - SwiftyJSON (from `https://github.com/SwiftyJSON/SwiftyJSON.git`)
+
+EXTERNAL SOURCES:
+  SwiftyJSON:
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+CHECKOUT OPTIONS:
+  SwiftyJSON:
+    :commit: 2a5b70f06001316d4fb54501edc70b4084705da0
+    :git: https://github.com/SwiftyJSON/SwiftyJSON.git
+
+SPEC CHECKSUMS:
+  SAMGradientView: dd5edfe971cea0f1f3369b49f5fb255c0ff3921a
+  SwiftyJSON: 04ccea08915aa0109039157c7974cf0298da292a
+>>>>>>> Stashed changes
 
 COCOAPODS: 0.39.0

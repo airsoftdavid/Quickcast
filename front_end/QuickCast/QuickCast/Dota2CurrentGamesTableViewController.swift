@@ -7,12 +7,22 @@
 //
 
 import UIKit
+import SwiftyJSON
 
+<<<<<<< Updated upstream
+=======
+class Dota2CurrentGamesTableViewController: UITableViewController {
+    
+    var NumberofRows = 10
+    
+    var simpleData = [String]()
+>>>>>>> Stashed changes
 
 class Dota2CurrentGamesTableViewController: UITableViewController {
         
     override func viewDidLoad() {
         super.viewDidLoad()
+        parseJSON()
 
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -34,19 +44,37 @@ class Dota2CurrentGamesTableViewController: UITableViewController {
     }
 
     override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        // #warning Incomplete implementation, return the number of rows
-        return 0
+        return NumberofRows
+    }
+    
+    func parseJSON(){
+        let path : String = NSBundle.mainBundle().pathForResource("jsonFile", ofType: "json") as String!
+        
+        //change next line to URL when getting from server
+        let jsonData = NSData(contentsOfFile: path) as NSData!
+        let parsedJSON = JSON(data: jsonData, options: NSJSONReadingOptions.MutableContainers, error: nil)
+        
+        let team1 = parsedJSON["dire_team"]["team_name"].string as String!
+        let team2 = parsedJSON["radiant_team"]["team_name"].string as String!
+        let team1wins = parsedJSON["dire_series_wins"].string as String!
+        let team2wins = parsedJSON["radiant_series_wins"].string as String!
+        
+        simpleData.append(team1)
+        simpleData.append(team2)
+        simpleData.append(team1wins)
+        simpleData.append(team2wins)
+        
     }
 
-    /*
+    
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath)
+        let cell = tableView.dequeueReusableCellWithIdentifier("CELL", forIndexPath: indexPath)
 
-        // Configure the cell...
+        cell.textLabel?.text = simpleData[indexPath.row]
 
         return cell
     }
-    */
+    
 
     /*
     // Override to support conditional editing of the table view.

@@ -14,10 +14,17 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
+<<<<<<< Updated upstream
                BlueprintIdentifier = 'DADC9DDC0A4D3CC3AA6D1D8A'
                BlueprintName = 'Pods'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods.a'>
+=======
+               BlueprintIdentifier = '04F7D8D18A13BFF95708C7B4'
+               BlueprintName = 'Pods'
+               ReferencedContainer = 'container:Pods.xcodeproj'
+               BuildableName = 'Pods.framework'>
+>>>>>>> Stashed changes
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

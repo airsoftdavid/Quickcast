@@ -14,8 +14,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+<<<<<<< Updated upstream
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict/>
+=======
+		<key>SwiftyJSON.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>0B722E7E03C024E106A4720AAB9EB27E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>7ED88B1E8D274B4B25EC36C1B901503F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>93569329DF1BE4E11787D5DEA3445E79</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+>>>>>>> Stashed changes
 </dict>
 </plist>

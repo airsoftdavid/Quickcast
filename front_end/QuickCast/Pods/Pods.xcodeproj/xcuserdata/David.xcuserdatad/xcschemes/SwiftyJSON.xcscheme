@@ -14,17 +14,10 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-<<<<<<< Updated upstream
-               BlueprintIdentifier = 'EDF7A5371332DE9D6B739A3B'
-               BlueprintName = 'SAMGradientView'
+               BlueprintIdentifier = 'B7D056E4E4A6DC86F0F3CEBE'
+               BlueprintName = 'SwiftyJSON'
                ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libSAMGradientView.a'>
-=======
-               BlueprintIdentifier = '30D7E76157918CEF5B330995'
-               BlueprintName = 'SAMGradientView'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'SAMGradientView.framework'>
->>>>>>> Stashed changes
+               BuildableName = 'SwiftyJSON.framework'>
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

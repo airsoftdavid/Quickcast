@@ -1,5 +1,12 @@
+<<<<<<< Updated upstream
 pod 'SAMGradientView'
 pod ‘Alamofile’, ‘~> 3.0’
 pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
 
 end
+=======
+platform :ios, '8.0'
+use_frameworks!
+pod 'SAMGradientView'
+pod 'SwiftyJSON', :git => 'https://github.com/SwiftyJSON/SwiftyJSON.git'
+>>>>>>> Stashed changes
